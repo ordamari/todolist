@@ -1,0 +1,19 @@
+.todo-list {
+    h1 {
+        margin: 50px auto;
+    }
+
+    .welcome{
+        margin-bottom: 15px;
+
+        span{
+            text-decoration: underline;
+            cursor: pointer;
+            color: blue;
+        }
+    }
+
+    .action-containers{
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,27 @@
+.task-details {
+
+    overflow: hidden;
+    transition: .5s;
+
+    &.open{
+        max-height: 1000px;
+    }
+
+    &.close{
+        max-height: 0;
+    }
+
+    .descripiton-container p {
+        font-family: $font-bold;
+    }
+
+    .other-details {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        text-transform: capitalize;
+        margin-bottom: 30px;
+    }
+
+
+}

@@ -1,0 +1,38 @@
+.select-container {
+    border: 2px solid $mainBlue;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    width: 210px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    margin:0 10px;
+    text-transform: capitalize;
+    font-family: $font-regular;
+
+    .select svg {
+        transform: translateY(5px);
+        color: $mainBlue;
+    }
+
+    .options {
+        padding: 3px 0;
+        width: calc(100% + 4px);
+        position: absolute;
+        background-color: $mainBlue;
+        z-index: 1;
+        top: -2px;
+        right: -2px;
+        border-radius: 3px;
+        border: 2px solid $mainBlue;
+
+        .option {
+            padding: 0 5px;
+            color: white;
+        }
+
+        .option:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+    }
+}

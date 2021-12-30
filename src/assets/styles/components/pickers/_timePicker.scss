@@ -1,0 +1,18 @@
+.time-picker {
+
+    border-style: solid;
+
+    &.valid {
+        border-color: #4BCA81;
+        outline-color: #4BCA81;
+    }
+    
+    &.unvalid {
+        border-color: #D8000C;
+        outline-color: #D8000C;
+
+        &.empty{
+            border-color: $mainBlue;
+        }
+    }
+}
